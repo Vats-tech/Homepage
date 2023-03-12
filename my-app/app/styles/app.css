@@ -1,0 +1,112 @@
+.container {
+  background-color: cornsilk;
+  width: 90%;
+  margin: auto;
+}
+
+.container__header {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 14px 0 14px;
+}
+
+.top-title img {
+  width: 30px;
+}
+
+.header-content {
+  color: white;
+  margin: 0 10px 0 10px;
+}
+
+.item-container__header {
+  width: 100%;
+}
+
+.item-container__header img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pill-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pill-button button {
+    background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.item-title h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px auto;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+}
+.item-title h2:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: black;
+  left: 30%;
+  top: 50%;
+  position: absolute;
+}
+.item-title h2:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: black;
+  right: 30%;
+  top: 50%;
+  position: absolute;
+}
+
+.items img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.items {
+  column-count: 3;
+  column-gap: 5px;
+}
+
+footer {
+  color: black;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  font-size: 16px;
+}
+
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
